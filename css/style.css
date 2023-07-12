@@ -164,6 +164,9 @@ body {
 }
 
 
+/* PREDEFINED TEXTS */
+
+
 
 /* LANDING PAGE */
 #landing__page {
@@ -226,14 +229,13 @@ footer{
   margin-top: 70px;
   text-align: center;
   background-color: #115ccc;
-  padding: 40px 65px;
+  padding: 20px 40px;
   color: #fff;
 }
 
 .footer{
   margin: auto;
-  
-  max-width: 700px;
+  max-width: 800px;
 }
 
 
