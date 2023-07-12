@@ -24,14 +24,18 @@ button {
 /* BASE STYLES */
 body {
   background-color: #e8f0f7;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', 'Inter', sans-serif;
+  font-size: 12px;
+  color: #000;
 
 }
 
 /* NORMAL STYLES */
 .header {
-  position: fixed;
+  position: relative;
   width: 100%;
+  top: 0px;
+  left: 0px;
 }
 
 .top-bar {
@@ -82,9 +86,10 @@ body {
 }
 
 .logo__text {
+  font-family: 'Montserrat';
   font-size: 20px;
-  color: #fff;
-  font-weight: 500;
+  color: #ffffffe7;
+  font-weight: 800;
   letter-spacing: -0.5px;
 }
 
@@ -158,6 +163,15 @@ body {
   transform: translateY(-7px) rotate(-45deg);
 }
 
+
+
+/* LANDING PAGE */
+#landing__page {
+
+  
+}
+
+
 /* MEDIA QUERIES */
 @media (max-width: 650px) {
   .nav {
@@ -190,11 +204,13 @@ body {
     display: block;
   }
 
-  .footer h5{
-    font-size: 15px;
-    font-weight: 400;
+  .footer #footer__text{
+    font-size: 10px;
   }
   
+  .footer img{
+    width: 120px;
+  }
   
 }
 
@@ -237,7 +253,7 @@ footer{
   font-size: 35px;
 }
 
-.footer h5{
+.footer #footer__text{
   margin-top: 20px;
   margin-bottom: 40px;
   font-size: 30px;
