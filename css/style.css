@@ -188,6 +188,13 @@ body {
   .hamburger {
     display: block;
   }
+
+  .footer h5{
+    font-size: 15px;
+    font-weight: 400;
+  }
+  
+  
 }
 
 @media (max-width: 360px) {
