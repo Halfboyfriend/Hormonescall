@@ -190,11 +190,25 @@ body {
 }
 #landing__page h1{
   font-weight: 600;
+  margin-bottom: 20px;
   
 }
 #landing__page p{
   line-height: 2em;
+  margin-top: 10px;
 }
+#landing__page #btn{
+  
+  text-decoration: none;
+  color: #fff;
+  background-color: orange;
+  border: 1px solid orange;
+  border-radius: 25px;
+  padding: 10px;
+  position: relative;
+  top: 50px;
+}
+
 
 #about__us{
   transition: all 0.3s ease;
@@ -206,6 +220,11 @@ body {
   font-weight: 700;
   text-decoration: underline;
   margin-bottom: 10px;
+}
+#about__us a{
+  color: #115ccc;
+
+  font-weight: 700;
 }
 
 /* MEDIA QUERIES */
@@ -261,6 +280,12 @@ body {
   }
 }
 
+
+@media (min-width: 700px){
+  #landing__page p{
+    font-size: 15px;
+  }
+}
 
 
 footer{
