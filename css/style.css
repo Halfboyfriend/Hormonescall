@@ -222,6 +222,10 @@ body {
   text-decoration: underline;
   margin-bottom: 10px;
 }
+#about__us p{
+  text-align: justify;
+
+}
 #about__us a{
   color: #115ccc;
 
